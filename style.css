@@ -730,3 +730,14 @@ progress::-moz-progress-bar {
     grid-column: span 3;
   }
 }
+
+:root {
+  /* HERO */
+  --hero-image: url("assets/hero-image-home.jpg");
+  --hero-attachment: fixed;
+  --hero-opacity-color: rgba(0, 0, 0, 0.6);
+  --hero-text-color: #ffffff;
+
+  /* CAROUSEL */
+  --carousel-bg-color: #f3f3f3;
+}
