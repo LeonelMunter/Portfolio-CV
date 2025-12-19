@@ -741,3 +741,14 @@ progress::-moz-progress-bar {
   /* CAROUSEL */
   --carousel-bg-color: #f3f3f3;
 }
+
+.skillIconsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skillIcon{
+    width: 14%;
+    margin: 10px;
+    text-align: center;
+}
