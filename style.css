@@ -733,7 +733,6 @@ progress::-moz-progress-bar {
 
 :root {
   /* HERO */
-  --hero-image: url("assets/programmer-hero.png");
   --hero-attachment: fixed;
   --hero-opacity-color: rgba(0, 0, 0, 0.6);
   --hero-text-color: #ffffff;
