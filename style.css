@@ -576,18 +576,18 @@ progress::-moz-progress-bar {
 }
 
 .portfolio-modal {
+  background-color: var(--white-color);
   padding: 1rem;
-  max-width: 400px;
   display: flex;
   flex-direction: column;
-  background-color: var(--white-color);
+  max-width: 400px;
 }
 
 .portfolio-modal h3 {
   border-bottom: medium solid var(--first-color);
-  margin: 1rem auto;
   padding: 0.5rem 0;
-  color: var(--title-color);
+  margin: 1rem auto;
+  color: var(--text-color);
 }
 
 .portfolio-details {
@@ -695,7 +695,10 @@ progress::-moz-progress-bar {
   }
 
   .services > .container {
-    grid-template-columns: repeat(3, 30%);
+    display: grid;
+        grid-template-columns: repeat(3,30%);
+        justify-content: space-between;
+        align-content: center;
   }
 
   .services .section-title {
