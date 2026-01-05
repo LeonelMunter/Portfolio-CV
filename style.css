@@ -766,7 +766,7 @@ progress::-moz-progress-bar {
     margin: 0;
     padding: 0;
     animation: slide 20s infinite alternate ease-in-out;
-    width: calc(50% * 9); /* Ajusta esto al número total de certificados */
+    width: calc(50% * 11); /* Ajusta esto al número total de certificados */
 }
 
 .slider-box li {
