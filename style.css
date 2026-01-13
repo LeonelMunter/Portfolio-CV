@@ -580,8 +580,17 @@ progress::-moz-progress-bar {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  max-width: 200px;
+  max-width: 400px;
+  max-height: 85vh;
+  overflow: hidden;
 }
+
+.portfolio-modal img {
+  width: 45%;
+  max-height: 380px;   /* 🔑 limita el alto */
+  object-fit: contain; /* 🔑 muestra toda la imagen sin recortar */
+}
+
 
 .portfolio-modal h3 {
   border-bottom: medium solid var(--first-color);
@@ -649,6 +658,9 @@ progress::-moz-progress-bar {
   .portfolio-info {
     margin-left: 1rem;
     align-self: center;
+    overflow-y: auto;
+    max-height: 380px;
+    padding-right: 0.5rem;
   }
 
   .services > .container {
