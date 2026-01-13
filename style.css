@@ -585,7 +585,7 @@ progress::-moz-progress-bar {
 }
 
 .portfolio-modal img {
-  width: 55%;
+  width: 100%;
   max-height: 200px;   /* 🔑 limita el alto */
   object-fit: contain; /* 🔑 muestra toda la imagen sin recortar */
 }
