@@ -576,11 +576,13 @@ progress::-moz-progress-bar {
 }
 
 .portfolio-modal {
-  background-color: var(--white-color);
-  padding: 1rem;
   display: flex;
-  flex-direction: column;
-  max-width: 400px;
+  gap: 2rem;
+  max-width: 1000px;
+  width: 90%;
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .portfolio-modal h3 {
