@@ -53,3 +53,22 @@
       });
   });
 })(document);
+
+/* ********** Portfolio Modals ********** */
+((d) => {
+  const closePortfolioModal = () => {
+    location.hash = "#portafolio";
+  };
+
+  d.addEventListener("click", (e) => {
+    if (e.target.matches('.modal[id|="trabajo"]')) {
+      closePortfolioModal();
+    }
+  });
+
+  d.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && location.hash.startsWith("#trabajo-")) {
+      closePortfolioModal();
+    }
+  });
+})(document);
